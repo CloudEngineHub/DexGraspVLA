@@ -340,7 +340,7 @@ class TrainDexGraspVLAControllerWorkspace(BaseWorkspace):
                     self.model = model_ddp
 
                 # Save model at specific epochs without affecting best model saving
-                if self.epoch in [40, 60, 80, 100, 120]:
+                if self.epoch in [40, 60, 80, 100, 120] and accelerator.is_main_process:
                     model_ddp = self.model
                     self.model = accelerator.unwrap_model(self.model)
                     save_dir = os.path.join(self.output_dir, 'epoch_checkpoints')
