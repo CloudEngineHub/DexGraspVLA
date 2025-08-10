@@ -176,7 +176,7 @@ If you find our project helpful, please consider citing it as
 ```bibtex
 @misc{zhong2025dexgraspvla,
       title={DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping}, 
-      author={Yifan Zhong and Xuchuan Huang and Ruochong Li and Ceyao Zhang and Yitao Liang and Yaodong Yang and Yuanpei Chen},
+      author={Yifan Zhong and Xuchuan Huang and Ruochong Li and Ceyao Zhang and Zhang Chen and Tianrui Guan and Fanlian Zeng and Ka Num Lui and Yuyao Ye and Yitao Liang and Yaodong Yang and Yuanpei Chen},
       year={2025},
       eprint={2502.20900},
       archivePrefix={arXiv},
